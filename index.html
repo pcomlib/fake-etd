@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psych Dissertation Generator</title>
+
+<link rel="stylesheet" href="style.css" />
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+<h1>Fake Dissertation Generator for Testing Purposes</h1>
+
+<label for="pcom_submitter">Submitter Email</label>
+<input type="text" id="submitter">
+
+<label for="pcom_email">PCOM Email</label>
+<input type="text" id="pcom_email">
+
+
+<label for="contact_email">Contact Email</label>
+<input type="text" id="contact_email">
+
+<label for="firstname">First Name</label>
+<input type="text" id="firstname">
+
+<label for="lastname">Last Name</label>
+<input type="text" id="lastname">
+
+<label for="suffix">Suffix</label>
+<input type="text" id="suffix">
+
+<label for="phone">Phone</label>
+<input type="text" id="phone">
+
+<label for="title">Dissertation Title</label>
+<textarea id="title"></textarea>
+
+<label for="advisor">Primary Advisor</label>
+<input type="text" id="advisor">
+
+<label for="advisoremail">Primary Advisor Email</label>
+<input type="text" id="advisoremail">
+
+<label for="committee">Additional Committee Members</label>
+<textarea rows="4" id="committee"></textarea>
+
+<button id="generatePDF">Generate Thesis PDF</button>
+
+<div>
+<a href="https://www.randomlists.com/random-addresses">Random Mailing Address</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+
+
+* {	box-sizing: border-box; }
+
+:root {
+	--pcom-yellow: #fcaf16;
+	--pcom-blue: #00448d;
+	--pcom-red: #fb2d37;
+	--pcom-dark-blue: #1a203a;
+	--pcom-dark-red: #a20a3a;
+	--pcom-cyan: #00e4e1;
+	--pcom-gray: #edf6f5;
+	--pcom-text: #222222;
+	--pcom-header-padding: 10px;
+}
+
+body {
+	padding: 0 2rem 0;
+	font-size: 112.5%;
+}
+
+label {
+	display: block;
+	margin-top: 1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+	display: block;
+	padding: 0.5rem 0.25rem;
+	font-size: 1rem;
+	width: 100%;
+}
+
+input[type="number"] {
+	display: block;
+	padding: 0.5rem 0.25rem;
+	font-size: 1rem;
+}
+
+textarea {
+	width: 100%;
+	font-size: 1rem;
+	padding: 0.5rem 0.25rem;
+
+}
+
+select {
+	width: 100%;
+	font-size: 1rem;
+	padding: 0.5rem 0.25rem;
+}
+
+button#generatePDF {
+	font-size: 1.25rem;
+	margin: 1.5rem auto;
+	text-align: center;
+	display: block;
+	padding: .5em;
+	font-weight: bold;
+}
