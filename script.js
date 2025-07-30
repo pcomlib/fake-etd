@@ -150,10 +150,15 @@ window.addEventListener('load', function(event) {
 		"She considered the birds to be her friends. She'd put out food for them each morning and then she'd watch as they came to the feeders to gorge themselves for the day. She wondered what they would do if something ever happened to her. Would they miss the meals she provided if she failed to put out the food one morning? Sure, bird flu was a possibility, but she had kissed pigs all through her childhood and only occasionally got worms.",
 		"He swung back the fishing pole and cast the line which fell 25 feet away into the river. The lure landed in the perfect spot and he was sure he would soon get a bite. He never expected that the bite would come from behind in the form of a bear. Especially a bear who had recently seen a dentist and was still numb from novocaine after getting a root canal.",
 		"I'm going to hire professional help tomorrow. I can't handle this anymore. She fell over the coffee table and now there is blood in her catheter. This is much more than I ever signed up to do. ",
+		"I used canned chicken to make a lovely chicken salad for lunch.",
+		"AI is worse than useless!",
+		"Literally there are hundreds of other banana varieties that are also cultivated and some that aren't that people eat that aren't so perfectly shaped as Ray Comfort claims.",
+		"That cartoon gave me an extremely unrealistic expectation of the size of a road runner.",
+		"The dividing line between Old English and Middle English is generally considered 1066.", 
 		"A two-inch layer of freshly fallen snow covered the yard. Stacey peeked outside. To most, it would have been a beautiful sight worthy of taking a photo to put on Instagram. For Stacey, it meant something different. The first snow of the year brought back the witches as the fairies in the yard had to seek shelter to avoid the cold. Yes, these hallucinogens were good but now she had a craving for coffee and raw steak plus a rabies vaccination.",
 		"After completing thousands of autopsies, I had finally collected enough body parts to build my creation. Being a coroner provided me with all the tissue, organs, limbs, and bodily fluids I needed. Certainly I faced the challenge of the immune system and rejection, but my creation would live tonight. I am no mere mad scientist with a hunchback assistant. I am a living god."];
 		
-		let all_keywords = ['Guinea Worms', 'Rabies', 'Mad Cow Disease', 'Stomach', 'Cornea', 'Vitamin D', 'Elves', 'Calcium Carbonate', 'Dragons', 'Lizard People', 'Macaroni and Cheese', 'Fish Sticks', 'Kuru', 'Prions', 'Faulkner', 'Graphic medicine', 'LSD', 'Greased Lightning', 'Lemon Law', 'Flea Market'];
+		let all_keywords = ['Guinea Worms', 'Rabies', 'Mad Cow Disease', 'Stomach', 'Cornea', 'Vitamin D', 'Elves', 'Sassafras', 'Urchin', 'Motility', 'Wurst', 'Quintuplets', 'Calcium Carbonate', 'Dragons', 'Lizard People', 'Macaroni and Cheese', 'Fish Sticks', 'Kuru', 'Prions', 'Faulkner', 'Graphic medicine', 'LSD', 'Greased Lightning', 'Lemon Law', 'Flea Market'];
 		let shuffle = fisherYates(ABSTRACTS.length);
 		
 		
